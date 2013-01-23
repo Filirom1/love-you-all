@@ -3,8 +3,13 @@
   <head>
     <script src="jquery-1.9.0.min.js"></script>
     <script src="code.js"></script>
+    <script src="mocha.js"></script>
+    <script>mocha.setup({ui: 'bdd', ignoreLeaks: true})</script>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="mocha.css" />
   </head>
   <body>
+    <div id="mocha"></div>
     <button>click on me</button>
     <h1>Hello <span class="name"></span>!</h1>
     <quote></quote>
