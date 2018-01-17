@@ -12,7 +12,7 @@ Et le nuit, je travaille sur [OpenRuko](https://github.com/openruko) un clone Op
 
 Voila j'ai fais ma pub, maintenant passons aux tests !
 
-J'ai fais mes premiers tests en JS server side, en node.js, avec une librairies qui s'appelle [vows](http://vowsjs.org/), mais celle ci était tellement buggué que j'ai commencé à faire des [pull-requests](https://github.com/cloudhead/vows/issues/created_by/Filirom1?page=1&sort=updated&state=open). Mais passé 7 pull-requests j'ai abandonné vows pour passer à [mocha](http://visionmedia.github.com/mocha/).
+J'ai fais mes premiers tests en JS server side, en node.js, avec une librairies qui s'appelle [vows](http://vowsjs.org/), mais celle ci était tellement buggué que j'ai commencé à faire des [pull-requests](https://github.com/cloudhead/vows/issues/created_by/Filirom1?page=1&sort=updated&state=open). Mais passé 7 pull-requests j'ai abandonné vows pour passer à [mocha](http://mochajs.org/).
 
 Commençons le live coding.
 
@@ -55,7 +55,7 @@ Malgré son apparence simpliste, cette application reflète bien ce que l'on tes
 
 ## Test en mocha
 
-Pour faire des tests en mocha, je dois modifier mon index.html pour rajouter [mocha.js](https://raw.github.com/visionmedia/mocha/master/mocha.js), [mocha.css](https://raw.github.com/visionmedia/mocha/master/mocha.css), une div vide avec l'id mocha qui contiendra le resultat des tests, un setup pour passer quelques options à mocha, et mon test.
+Pour faire des tests en mocha, je dois modifier mon index.html pour rajouter [mocha.js](https://raw.githubusercontent.com/mochajs/mocha/master/lib/mocha.js), [mocha.css](https://raw.githubusercontent.com/mochajs/mocha/master/mocha.css), une div vide avec l'id mocha qui contiendra le resultat des tests, un setup pour passer quelques options à mocha, et mon test.
 
        <head>
          <script src="jquery-1.9.0.min.js"></script>
